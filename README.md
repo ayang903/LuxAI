@@ -12,6 +12,7 @@ upon the successful strategies employed by the winning team.
 ## Train and test for yourself
 As linked to in the report, the original training data can be downloaded from [Kaggle Datasets]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/bomac1/luxai-replay-dataset)). For this repo, all replays are stored in the `full_episodes/top_agents` directory.
 For training, if running on the BU SCC servers, please submit a job (with GPU) running the `run.sh` script. If running locally, pip install `requirements.txt`, navigate to `UNet_attention`, and run `train.py`.
+You can see some examples of successful runs of the training in the run.sh.e and run.sh.o files.
 
 ## Result
 Finally our team ended in fourth place, losing third place on the final day. Our highest obtained score was 1937.2.
