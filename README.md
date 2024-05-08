@@ -3,8 +3,11 @@
 Team Gamma: Andy Yang, Wai Yuen Cheng, Tariq Georges
 
 ## Introduction
-This is the implementation of Imitation Learning method for team _No face_ in the [Lux AI Challenge](https://www.kaggle.com/competitions/lux-ai-2021/overview) on kaggle.  
-We have used U-Net for 3 versions. Besides the base model, we have tried to add Convolutional Block Attention Module to U-Net. Moreover, we let the model predict 3 actions instead of 6 actions, by integrating conditions of moving in 4 directions to 1 direction. We realized it by rotating the observation and action map.
+Our team approached this challenge by leveraging a U-Net-based neural network, specifically
+designed to process spatial data and prioritize relevant information through skip connections. The
+network was trained on replay data generously shared by the original competition-winning team, Toad Brigade. We also integrated our own replays, from Team GO and Team Q of our DS598 class tournament.
+By analyzing and learning from this high-quality data, our model aimed to replicate and improve
+upon the successful strategies employed by the winning team. 
 
 ## Train and test for yourself
 The training data can be downloaded from the battle records of the 1st team _Toad Brigade_. You can also download different teams' episodes from [Kaggle Datasets](https://www.kaggle.com/datasets).  
