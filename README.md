@@ -1,4 +1,6 @@
-# Lux AI Challenge 🍄 🎮, DS598 Spring 2024
+# Lux AI Challenge 🍄 🎮 DS598 Spring 2024
+
+Team Gamma: Andy Yang, Wai Yuen Cheng, Tariq Georges
 
 ## Introduction
 This is the implementation of Imitation Learning method for team _No face_ in the [Lux AI Challenge](https://www.kaggle.com/competitions/lux-ai-2021/overview) on kaggle.  
