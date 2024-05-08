@@ -10,9 +10,8 @@ By analyzing and learning from this high-quality data, our model aimed to replic
 upon the successful strategies employed by the winning team. 
 
 ## Train and test for yourself
-The training data can be downloaded from the battle records of the 1st team _Toad Brigade_. You can also download different teams' episodes from [Kaggle Datasets](https://www.kaggle.com/datasets).  
-For training, you can run train.py.
-For testing the agent's performance, please follow the instructions in this [Tutorial](https://www.kaggle.com/code/stonet2000/lux-ai-season-1-jupyter-notebook-tutorial/notebook).  
+As linked to in the report, the original training data can be downloaded from [Kaggle Datasets]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/bomac1/luxai-replay-dataset)). For this repo, all replays are stored in the `full_episodes/top_agents` directory.
+For training, if running on the BU SCC servers, please submit a job (with GPU) running the `run.sh` script. If running locally, pip install `requirements.txt`, navigate to `UNet_attention`, and run `train.py`.
 
 ## Result
 Finally our team ended in fourth place, losing third place on the final day. Our highest obtained score was 1937.2.
